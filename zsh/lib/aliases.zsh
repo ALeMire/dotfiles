@@ -8,3 +8,6 @@ alias tree="ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^
 alias dus='du -sckxh * | sort -nr' #directories sorted by size
 alias wordy='wc -w * | sort | tail -n10' # sort files in current directory by the number of words they contain
 alias filecount='find . -type f | wc -l' # number of files (not directories)
+
+## ======= Directories
+alias aptitude-update='aptitude update && aptitude -y dist-upgrade'
