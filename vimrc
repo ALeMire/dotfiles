@@ -31,6 +31,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Plugins
 Plugin 'Valloric/YouCompleteMe' " Autocompletion. Needs to be compiled. See https://github.com/Valloric/YouCompleteMe
 Plugin 'junegunn/goyo.vim' " Distraction free writing
+Plugin 'tpope/vim-vinegar' " netrw add-ons
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
