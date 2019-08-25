@@ -14,7 +14,7 @@ setopt extended_glob # treat #, ~, and ^ as part of patterns for filename genera
 
 # ===== History
 HISTSIZE=10000
-HISTFILE=~/.zsh_history
+HISTFILE=$XDG_DATA_HOME/zsh/history
 SAVEHIST=10000
 setopt append_history # Allow multiple terminal sessions to all append to one zsh command history
 setopt extended_history # save timestamp of command and duration

@@ -1,11 +1,11 @@
-dotfiles
-========
+XDG spec dotfiles
+=================
+These dotfiles are sorted by XDG specification. Keeping that home clean is the way forward.
 
-My collection of dotfiles are inspired by many many others including:
+XDG variables are in config/zsh/zshenv currently.
+Root access is necessary to make these global.
 
-<ul>
-<li><a href="https://github.com/robbyrussell/oh-my-zsh">Oh-My-ZSH</a></li>
-<li><a href="https://github.com/spicycode/ze-best-zsh-config">ze-best-zsh-config</a></li>
-<li><a href="https://github.com/myfreeweb/zshuery">zshuery</a></li>
-<li><a href="http://zanshin.net/2013/02/02/zsh-configuration-from-the-ground-up/">Mark Nichols</a></li>
-</ul>
+TODO
+================
+* create an initialization script
+* add support for other shells

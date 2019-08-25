@@ -1,5 +1,5 @@
-ZSH=$HOME/.zsh
-export EDITOR=/usr/bin/vim
+ZSH=$HOME/.config/zsh
+export EDITOR=/usr/bin/nvim
 
 source $ZSH/themes/nanotech.zsh-theme
 
@@ -8,4 +8,5 @@ for config_file ($ZSH/lib/*.zsh); do
 done
 
 autoload -U compinit
+compinit -d $XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION
 compinit -i
